@@ -11,7 +11,7 @@
           <string>Z</string>
         </entry>
       </elementAttributes>
-      <pos x="400" y="60"/>
+      <pos x="340" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>Clock</elementName>
@@ -25,7 +25,7 @@
           <string>C1</string>
         </entry>
       </elementAttributes>
-      <pos x="100" y="60"/>
+      <pos x="100" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Clock</elementName>
@@ -41,7 +41,46 @@
       </elementAttributes>
       <pos x="100" y="120"/>
     </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="60"/>
+    </visualElement>
   </visualElements>
-  <wires/>
+  <wires>
+    <wire>
+      <p1 x="280" y="80"/>
+      <p2 x="340" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="100"/>
+      <p2 x="200" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="120"/>
+      <p2 x="120" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="40"/>
+      <p2 x="120" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="60"/>
+      <p2 x="200" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="100"/>
+      <p2 x="120" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="40"/>
+      <p2 x="120" y="60"/>
+    </wire>
+  </wires>
   <measurementOrdering/>
 </circuit>
