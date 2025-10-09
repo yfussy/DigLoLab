@@ -11,7 +11,7 @@
           <string>Load</string>
         </entry>
       </elementAttributes>
-      <pos x="-140" y="-180"/>
+      <pos x="-140" y="-300"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -31,9 +31,105 @@
           <string>Z</string>
         </entry>
       </elementAttributes>
-      <pos x="200" y="-180"/>
+      <pos x="340" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DriverInvSel</elementName>
+      <elementAttributes/>
+      <pos x="-40" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="-40" y="-220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DriverInvSel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="40" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="100" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="220" y="-100"/>
     </visualElement>
   </visualElements>
-  <wires/>
+  <wires>
+    <wire>
+      <p1 x="-140" y="-100"/>
+      <p2 x="-60" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="-100"/>
+      <p2 x="40" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="-100"/>
+      <p2 x="300" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="-100"/>
+      <p2 x="220" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="-100"/>
+      <p2 x="340" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="-100"/>
+      <p2 x="100" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="-360"/>
+      <p2 x="300" y="-360"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="-300"/>
+      <p2 x="-40" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="-300"/>
+      <p2 x="20" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="-300"/>
+      <p2 x="-40" y="-220"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="-180"/>
+      <p2 x="-40" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="-280"/>
+      <p2 x="40" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="-360"/>
+      <p2 x="40" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="-360"/>
+      <p2 x="300" y="-100"/>
+    </wire>
+  </wires>
   <measurementOrdering/>
 </circuit>
