@@ -951,10 +951,15 @@
           <string>inverterConfig</string>
           <inverterConfig>
             <string>In_2</string>
+            <string>In_3</string>
           </inverterConfig>
         </entry>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
+        </entry>
       </elementAttributes>
-      <pos x="-11240" y="-1240"/>
+      <pos x="-11160" y="-1240"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -1005,10 +1010,15 @@
           <string>inverterConfig</string>
           <inverterConfig>
             <string>In_2</string>
+            <string>In_3</string>
           </inverterConfig>
         </entry>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
+        </entry>
       </elementAttributes>
-      <pos x="-11240" y="-1160"/>
+      <pos x="-11160" y="-1160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1022,7 +1032,7 @@
           <string>P_coffee</string>
         </entry>
       </elementAttributes>
-      <pos x="-11240" y="-1160"/>
+      <pos x="-11160" y="-1160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1036,7 +1046,7 @@
           <string>P_tea</string>
         </entry>
       </elementAttributes>
-      <pos x="-11240" y="-1240"/>
+      <pos x="-11160" y="-1240"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -1046,7 +1056,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-11080" y="-1200"/>
+      <pos x="-11000" y="-1200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1108,7 +1118,7 @@
           <string>Buy_enb</string>
         </entry>
       </elementAttributes>
-      <pos x="-10980" y="-1180"/>
+      <pos x="-10900" y="-1180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1118,7 +1128,7 @@
           <string>TeaOut</string>
         </entry>
       </elementAttributes>
-      <pos x="-10720" y="-1220"/>
+      <pos x="-10640" y="-1220"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1128,7 +1138,7 @@
           <string>CoffeeOut</string>
         </entry>
       </elementAttributes>
-      <pos x="-10720" y="-1100"/>
+      <pos x="-10640" y="-1100"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1189,7 +1199,7 @@
     <visualElement>
       <elementName>Register</elementName>
       <elementAttributes/>
-      <pos x="-10800" y="-1240"/>
+      <pos x="-10720" y="-1240"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1203,12 +1213,12 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="-10800" y="-1220"/>
+      <pos x="-10720" y="-1220"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
       <elementAttributes/>
-      <pos x="-10800" y="-1120"/>
+      <pos x="-10720" y="-1120"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1222,7 +1232,7 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="-10800" y="-1100"/>
+      <pos x="-10720" y="-1100"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -1236,7 +1246,7 @@
           <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="-10980" y="-1100"/>
+      <pos x="-10900" y="-1100"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1250,7 +1260,7 @@
           <string>Buy_enb</string>
         </entry>
       </elementAttributes>
-      <pos x="-10980" y="-1100"/>
+      <pos x="-10900" y="-1100"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1264,7 +1274,7 @@
           <string>P_next</string>
         </entry>
       </elementAttributes>
-      <pos x="-10980" y="-1040"/>
+      <pos x="-10900" y="-1040"/>
     </visualElement>
     <visualElement>
       <elementName>Add</elementName>
@@ -1844,12 +1854,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Add Balance</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>18</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Add Balance</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -1862,16 +1872,16 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Buy</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>15</int>
         </entry>
         <entry>
+          <string>Label</string>
+          <string>Buy</string>
+        </entry>
+        <entry>
           <string>RectWidth</string>
-          <int>43</int>
+          <int>47</int>
         </entry>
       </elementAttributes>
       <pos x="-11460" y="-1300"/>
@@ -2713,7 +2723,7 @@
           <string>P_change</string>
         </entry>
       </elementAttributes>
-      <pos x="-10980" y="-1080"/>
+      <pos x="-10900" y="-1080"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -2769,7 +2779,7 @@
           <string>reset</string>
         </entry>
       </elementAttributes>
-      <pos x="-10980" y="-1020"/>
+      <pos x="-10900" y="-1020"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -2803,6 +2813,3853 @@
       </elementAttributes>
       <pos x="-10680" y="-540"/>
     </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>T1</string>
+        </entry>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>clock reset P5 P10 P20 Pcoffee Ptea Pchange Pnext Balance CoffeeOut TeaOut Change5 Change10 Change20
+0 1 0 0 0 0 0 0 0 x x x x x x
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 5 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 5 0 0 0 0 0
+0 0 0 1 0 0 0 0 0 5 0 0 0 0 0
+1 0 0 1 0 0 0 0 0 5 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 15 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 15 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 15 0 0 0 0 0
+1 0 0 0 1 0 0 0 0 15 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 35 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 35 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 35 0 0 0 0 0
+1 0 0 0 1 0 0 0 0 35 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 35 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 35 0 0 0 0 0
+0 0 0 1 0 0 0 0 0 35 0 0 0 0 0
+1 0 0 1 0 0 0 0 0 35 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 45 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 45 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 45 0 0 0 0 0
+1 0 1 0 0 0 0 0 0 45 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 50 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 50 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 50 0 0 0 0 0
+1 0 1 0 0 0 0 0 0 50 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 50 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 50 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 50 0 0 0 0 0
+1 0 1 0 0 0 0 0 0 50 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 50 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 50 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 50 0 0 0 0 0
+1 0 1 0 0 0 0 0 0 50 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 50 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 50 0 0 0 0 0
+</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="-12160" y="-1940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>T2</string>
+        </entry>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>clock reset P5 P10 P20 Pcoffee Ptea Pchange Pnext Balance CoffeeOut TeaOut Change5 Change10 Change20
+0 1 0 0 0 0 0 0 0 x x x x x x
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 0 0 0 0
+0 0 0 1 0 0 0 0 0 20 0 0 0 0 0
+1 0 0 1 0 0 0 0 0 20 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 30 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 30 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 30 0 0 0 0 0
+1 0 0 0 0 1 0 0 0 30 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 5 1 0 0 0 0
+1 0 0 0 0 0 0 0 0 5 1 0 0 0 0
+0 0 1 0 0 0 0 0 0 5 1 0 0 0 0
+1 0 1 0 0 0 0 0 0 5 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 5 1 0 0 0 0
+1 0 0 0 0 0 0 0 0 5 1 0 0 0 0
+0 0 0 1 0 0 0 0 0 5 1 0 0 0 0
+1 0 0 1 0 0 0 0 0 5 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 5 1 0 0 0 0
+1 0 0 0 0 0 0 0 0 5 1 0 0 0 0
+0 0 0 0 1 0 0 0 0 5 1 0 0 0 0
+1 0 0 0 1 0 0 0 0 5 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 5 1 0 0 0 0
+1 0 0 0 0 0 0 0 0 5 1 0 0 0 0
+0 1 0 0 0 0 0 0 0 x x x x x x
+1 1 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 20 0 0 0 0 0
+1 0 0 0 1 0 0 0 0 20 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 40 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 40 0 0 0 0 0
+0 0 0 0 0 0 1 0 0 40 0 0 0 0 0
+1 0 0 0 0 0 1 0 0 40 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+0 0 0 0 0 0 1 0 0 20 0 1 0 0 0
+1 0 0 0 0 0 1 0 0 20 0 1 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+0 0 0 0 0 1 0 0 0 20 0 1 0 0 0
+1 0 0 0 0 1 0 0 0 20 0 1 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+0 0 1 0 0 0 0 0 0 20 0 1 0 0 0
+1 0 1 0 0 0 0 0 0 20 0 1 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+0 0 0 1 0 0 0 0 0 20 0 1 0 0 0
+1 0 0 1 0 0 0 0 0 20 0 1 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+0 0 0 0 1 0 0 0 0 20 0 1 0 0 0
+1 0 0 0 1 0 0 0 0 20 0 1 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="-12040" y="-1940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>T4</string>
+        </entry>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>clock reset P5 P10 P20 Pcoffee Ptea Pchange Pnext Balance CoffeeOut TeaOut Change5 Change10 Change20
+0 1 0 0 0 0 0 0 0 x x x x x x
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 20 0 0 0 0 0
+1 0 0 0 1 0 0 0 0 20 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 40 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 40 0 0 0 0 0
+0 0 0 0 0 0 1 0 0 40 0 0 0 0 0
+1 0 0 0 0 0 1 0 0 40 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+0 0 1 0 0 0 0 0 0 20 0 1 0 0 0
+1 0 1 0 0 0 0 0 0 20 0 1 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+0 0 0 1 0 0 0 0 0 20 0 1 0 0 0
+1 0 0 1 0 0 0 0 0 20 0 1 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+0 0 0 0 1 0 0 0 0 20 0 1 0 0 0
+1 0 0 0 1 0 0 0 0 20 0 1 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 0 0 0
+0 0 0 0 0 0 0 0 1 20 0 1 0 0 0
+1 0 0 0 0 0 0 0 1 20 0 1 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 20 0 0 0 0 0
+1 0 0 0 0 1 0 0 0 20 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 20 0 0 0 0 0
+0 0 0 1 0 0 0 0 0 20 0 0 0 0 0
+1 0 0 1 0 0 0 0 0 20 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 30 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 30 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 30 0 0 0 0 0
+1 0 0 0 0 1 0 0 0 30 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 5 1 0 0 0 0
+1 0 0 0 0 0 0 0 0 5 1 0 0 0 0
+0 0 0 0 0 0 0 1 0 5 1 0 0 0 0
+1 0 0 0 0 0 0 1 0 5 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+1 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+0 0 0 0 1 0 0 0 0 0 0 0 1 0 0
+1 0 0 0 1 0 0 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 1 0 0
+1 0 0 0 0 0 0 0 0 20 0 0 1 0 0
+0 0 0 0 1 0 0 0 0 20 0 0 1 0 0
+1 0 0 0 1 0 0 0 0 20 0 0 1 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 40 0 0 1 0 0
+1 0 0 0 0 0 0 0 0 40 0 0 1 0 0
+0 0 0 0 0 0 1 0 0 40 0 0 1 0 0
+1 0 0 0 0 0 1 0 0 40 0 0 1 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 1 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 1 0 0
+0 0 0 0 0 1 0 0 0 20 0 1 1 0 0
+1 0 0 0 0 1 0 0 0 20 0 1 1 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 1 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 1 0 0
+0 0 0 0 0 0 1 0 0 20 0 1 1 0 0
+1 0 0 0 0 0 1 0 0 20 0 1 1 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 1 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 1 0 0
+0 0 1 0 0 0 0 0 0 20 0 1 1 0 0
+1 0 1 0 0 0 0 0 0 20 0 1 1 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 1 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 1 0 0
+0 0 0 1 0 0 0 0 0 20 0 1 1 0 0
+1 0 0 1 0 0 0 0 0 20 0 1 1 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 1 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 1 0 0
+0 0 0 0 1 0 0 0 0 20 0 1 1 0 0
+1 0 0 0 1 0 0 0 0 20 0 1 1 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 1 1 0 0
+1 0 0 0 0 0 0 0 0 20 0 1 1 0 0
+0 0 0 0 0 0 0 1 0 20 0 1 1 0 0
+1 0 0 0 0 0 0 1 0 20 0 1 1 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="-11800" y="-1940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>T3</string>
+        </entry>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>clock reset P5 P10 P20 Pcoffee Ptea Pchange Pnext Balance CoffeeOut TeaOut Change5 Change10 Change20
+0 1 0 0 0 0 0 0 0 x x x x x x
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+1 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 5 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 5 0 0 0 0 0
+0 0 0 0 0 0 0 1 0 5 0 0 0 0 0
+1 0 0 0 0 0 0 1 0 5 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+1 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+0 0 0 1 0 0 0 0 0 0 0 0 1 0 0
+1 0 0 1 0 0 0 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 10 0 0 1 0 0
+1 0 0 0 0 0 0 0 0 10 0 0 1 0 0
+0 0 0 0 0 0 0 1 0 10 0 0 1 0 0
+1 0 0 0 0 0 0 1 0 10 0 0 1 0 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 0
+0 0 0 1 0 0 0 0 0 0 0 0 0 1 0
+1 0 0 1 0 0 0 0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 10 0 0 0 1 0
+1 0 0 0 0 0 0 0 0 10 0 0 0 1 0
+0 0 1 0 0 0 0 0 0 10 0 0 0 1 0
+1 0 1 0 0 0 0 0 0 10 0 0 0 1 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 15 0 0 0 1 0
+1 0 0 0 0 0 0 0 0 15 0 0 0 1 0
+0 0 0 0 0 0 0 1 0 15 0 0 0 1 0
+1 0 0 0 0 0 0 1 0 15 0 0 0 1 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0
+1 0 0 0 0 0 0 0 0 0 0 0 1 1 0
+0 0 0 0 1 0 0 0 0 0 0 0 1 1 0
+1 0 0 0 1 0 0 0 0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 1 1 0
+1 0 0 0 0 0 0 0 0 20 0 0 1 1 0
+0 0 0 0 0 0 0 1 0 20 0 0 1 1 0
+1 0 0 0 0 0 0 1 0 20 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 1
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 0 0 1
+1 0 0 0 0 0 0 0 0 20 0 0 0 0 1
+0 0 1 0 0 0 0 0 0 20 0 0 0 0 1
+1 0 1 0 0 0 0 0 0 20 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 25 0 0 0 0 1
+1 0 0 0 0 0 0 0 0 25 0 0 0 0 1
+0 0 0 0 0 0 0 1 0 25 0 0 0 0 1
+1 0 0 0 0 0 0 1 0 25 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1
+1 0 0 0 0 0 0 0 0 0 0 0 1 0 1
+0 0 0 0 1 0 0 0 0 0 0 0 1 0 1
+1 0 0 0 1 0 0 0 0 0 0 0 1 0 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 1 0 1
+1 0 0 0 0 0 0 0 0 20 0 0 1 0 1
+0 0 0 1 0 0 0 0 0 20 0 0 1 0 1
+1 0 0 1 0 0 0 0 0 20 0 0 1 0 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 30 0 0 1 0 1
+1 0 0 0 0 0 0 0 0 30 0 0 1 0 1
+0 0 0 0 0 0 0 1 0 30 0 0 1 0 1
+1 0 0 0 0 0 0 1 0 30 0 0 1 0 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1
+0 0 0 0 1 0 0 0 0 0 0 0 0 1 1
+1 0 0 0 1 0 0 0 0 0 0 0 0 1 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 0 1 1
+1 0 0 0 0 0 0 0 0 20 0 0 0 1 1
+0 0 0 1 0 0 0 0 0 20 0 0 0 1 1
+1 0 0 1 0 0 0 0 0 20 0 0 0 1 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 30 0 0 0 1 1
+1 0 0 0 0 0 0 0 0 30 0 0 0 1 1
+0 0 1 0 0 0 0 0 0 30 0 0 0 1 1
+1 0 1 0 0 0 0 0 0 30 0 0 0 1 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 35 0 0 0 1 1
+1 0 0 0 0 0 0 0 0 35 0 0 0 1 1
+0 0 0 0 0 0 0 1 0 35 0 0 0 1 1
+1 0 0 0 0 0 0 1 0 35 0 0 0 1 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1
+1 0 0 0 0 0 0 0 0 0 0 0 1 1 1
+0 0 0 0 1 0 0 0 0 0 0 0 1 1 1
+1 0 0 0 1 0 0 0 0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 1 1 1
+1 0 0 0 0 0 0 0 0 20 0 0 1 1 1
+0 0 0 0 1 0 0 0 0 20 0 0 1 1 1
+1 0 0 0 1 0 0 0 0 20 0 0 1 1 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 40 0 0 1 1 1
+1 0 0 0 0 0 0 0 0 40 0 0 1 1 1
+0 0 0 0 0 0 0 1 0 40 0 0 1 1 1
+1 0 0 0 0 0 0 1 0 40 0 0 1 1 1
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 2
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 2
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 2
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 0 0 2
+1 0 0 0 0 0 0 0 0 20 0 0 0 0 2
+0 0 0 0 1 0 0 0 0 20 0 0 0 0 2
+1 0 0 0 1 0 0 0 0 20 0 0 0 0 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 40 0 0 0 0 2
+1 0 0 0 0 0 0 0 0 40 0 0 0 0 2
+0 0 1 0 0 0 0 0 0 40 0 0 0 0 2
+1 0 1 0 0 0 0 0 0 40 0 0 0 0 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 45 0 0 0 0 2
+1 0 0 0 0 0 0 0 0 45 0 0 0 0 2
+0 0 0 0 0 0 0 1 0 45 0 0 0 0 2
+1 0 0 0 0 0 0 1 0 45 0 0 0 0 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 2
+1 0 0 0 0 0 0 0 0 0 0 0 1 0 2
+0 0 0 0 1 0 0 0 0 0 0 0 1 0 2
+1 0 0 0 1 0 0 0 0 0 0 0 1 0 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 1 0 2
+1 0 0 0 0 0 0 0 0 20 0 0 1 0 2
+0 0 0 0 1 0 0 0 0 20 0 0 1 0 2
+1 0 0 0 1 0 0 0 0 20 0 0 1 0 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 40 0 0 1 0 2
+1 0 0 0 0 0 0 0 0 40 0 0 1 0 2
+0 0 0 1 0 0 0 0 0 40 0 0 1 0 2
+1 0 0 1 0 0 0 0 0 40 0 0 1 0 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 50 0 0 1 0 2
+1 0 0 0 0 0 0 0 0 50 0 0 1 0 2
+0 0 0 0 0 0 0 1 0 50 0 0 1 0 2
+1 0 0 0 0 0 0 1 0 50 0 0 1 0 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 2
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 2
+0 0 0 0 1 0 0 0 0 0 0 0 0 1 2
+1 0 0 0 1 0 0 0 0 0 0 0 0 1 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 0 1 2
+1 0 0 0 0 0 0 0 0 20 0 0 0 1 2
+0 0 0 0 0 0 1 0 0 20 0 0 0 1 2
+1 0 0 0 0 0 1 0 0 20 0 0 0 1 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 1 0 1 2
+1 0 0 0 0 0 0 0 0 0 0 1 0 1 2
+0 0 0 0 0 0 0 0 1 0 0 1 0 1 2
+1 0 0 0 0 0 0 0 1 0 0 1 0 1 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 2
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 2
+0 0 0 0 1 0 0 0 0 0 0 0 0 1 2
+1 0 0 0 1 0 0 0 0 0 0 0 0 1 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 20 0 0 0 1 2
+1 0 0 0 0 0 0 0 0 20 0 0 0 1 2
+0 0 0 0 1 0 0 0 0 20 0 0 0 1 2
+1 0 0 0 1 0 0 0 0 20 0 0 0 1 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 40 0 0 0 1 2
+1 0 0 0 0 0 0 0 0 40 0 0 0 1 2
+0 0 0 0 0 1 0 0 0 40 0 0 0 1 2
+1 0 0 0 0 1 0 0 0 40 0 0 0 1 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 15 1 0 0 1 2
+1 0 0 0 0 0 0 0 0 15 1 0 0 1 2
+0 0 0 0 0 0 0 1 0 15 1 0 0 1 2
+1 0 0 0 0 0 0 1 0 15 1 0 0 1 2
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0
+1 0 0 0 0 0 0 0 0 0 0 0 1 1 0
+0 0 1 0 0 0 0 0 0 0 0 0 1 1 0
+1 0 1 0 0 0 0 0 0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 5 0 0 1 1 0
+1 0 0 0 0 0 0 0 0 5 0 0 1 1 0
+0 0 0 1 0 0 0 0 0 5 0 0 1 1 0
+1 0 0 1 0 0 0 0 0 5 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 15 0 0 1 1 0
+1 0 0 0 0 0 0 0 0 15 0 0 1 1 0
+0 0 0 0 1 0 0 0 0 15 0 0 1 1 0
+1 0 0 0 1 0 0 0 0 15 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 x x x x x x
+1 0 0 0 0 0 0 0 0 x x x x x x
+0 0 0 0 0 0 0 0 0 35 0 0 1 1 0
+1 0 0 0 0 0 0 0 0 35 0 0 1 1 0
+</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="-11920" y="-1940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>TeaOut</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-11180" y="-1220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>CoffeeOut</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-11180" y="-1140"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -2826,8 +6683,8 @@
       <p2 x="-12200" y="-1800"/>
     </wire>
     <wire>
-      <p1 x="-11100" y="-1160"/>
-      <p2 x="-11080" y="-1160"/>
+      <p1 x="-11020" y="-1160"/>
+      <p2 x="-11000" y="-1160"/>
     </wire>
     <wire>
       <p1 x="-12080" y="-520"/>
@@ -2918,8 +6775,8 @@
       <p2 x="-12200" y="-1560"/>
     </wire>
     <wire>
-      <p1 x="-11000" y="-1180"/>
-      <p2 x="-10980" y="-1180"/>
+      <p1 x="-10920" y="-1180"/>
+      <p2 x="-10900" y="-1180"/>
     </wire>
     <wire>
       <p1 x="-11760" y="-540"/>
@@ -2974,8 +6831,8 @@
       <p2 x="-10860" y="-160"/>
     </wire>
     <wire>
-      <p1 x="-10900" y="-1060"/>
-      <p2 x="-10860" y="-1060"/>
+      <p1 x="-10820" y="-1060"/>
+      <p2 x="-10780" y="-1060"/>
     </wire>
     <wire>
       <p1 x="-12280" y="-420"/>
@@ -3010,16 +6867,16 @@
       <p2 x="-12440" y="-1200"/>
     </wire>
     <wire>
-      <p1 x="-10860" y="-1200"/>
-      <p2 x="-10800" y="-1200"/>
+      <p1 x="-10780" y="-1200"/>
+      <p2 x="-10720" y="-1200"/>
     </wire>
     <wire>
       <p1 x="-11300" y="-1200"/>
-      <p2 x="-11260" y="-1200"/>
+      <p2 x="-11180" y="-1200"/>
     </wire>
     <wire>
-      <p1 x="-11100" y="-1200"/>
-      <p2 x="-11080" y="-1200"/>
+      <p1 x="-11020" y="-1200"/>
+      <p2 x="-11000" y="-1200"/>
     </wire>
     <wire>
       <p1 x="-12360" y="-1200"/>
@@ -3038,8 +6895,8 @@
       <p2 x="-12200" y="-1720"/>
     </wire>
     <wire>
-      <p1 x="-10860" y="-1080"/>
-      <p2 x="-10800" y="-1080"/>
+      <p1 x="-10780" y="-1080"/>
+      <p2 x="-10720" y="-1080"/>
     </wire>
     <wire>
       <p1 x="-11720" y="-700"/>
@@ -3070,16 +6927,16 @@
       <p2 x="-12340" y="-1600"/>
     </wire>
     <wire>
-      <p1 x="-11160" y="-1220"/>
-      <p2 x="-11120" y="-1220"/>
+      <p1 x="-11080" y="-1220"/>
+      <p2 x="-11040" y="-1220"/>
     </wire>
     <wire>
-      <p1 x="-10740" y="-1220"/>
-      <p2 x="-10720" y="-1220"/>
+      <p1 x="-10660" y="-1220"/>
+      <p2 x="-10640" y="-1220"/>
     </wire>
     <wire>
-      <p1 x="-11120" y="-1220"/>
-      <p2 x="-11100" y="-1220"/>
+      <p1 x="-11040" y="-1220"/>
+      <p2 x="-11020" y="-1220"/>
     </wire>
     <wire>
       <p1 x="-11720" y="-580"/>
@@ -3114,8 +6971,8 @@
       <p2 x="-11060" y="-460"/>
     </wire>
     <wire>
-      <p1 x="-10740" y="-1100"/>
-      <p2 x="-10720" y="-1100"/>
+      <p1 x="-10660" y="-1100"/>
+      <p2 x="-10640" y="-1100"/>
     </wire>
     <wire>
       <p1 x="-12080" y="-720"/>
@@ -3162,8 +7019,8 @@
       <p2 x="-12200" y="-1240"/>
     </wire>
     <wire>
-      <p1 x="-11120" y="-1240"/>
-      <p2 x="-10800" y="-1240"/>
+      <p1 x="-11040" y="-1240"/>
+      <p2 x="-10720" y="-1240"/>
     </wire>
     <wire>
       <p1 x="-12180" y="-860"/>
@@ -3211,11 +7068,11 @@
     </wire>
     <wire>
       <p1 x="-11300" y="-1120"/>
-      <p2 x="-11260" y="-1120"/>
+      <p2 x="-11180" y="-1120"/>
     </wire>
     <wire>
-      <p1 x="-11120" y="-1120"/>
-      <p2 x="-10800" y="-1120"/>
+      <p1 x="-11040" y="-1120"/>
+      <p2 x="-10720" y="-1120"/>
     </wire>
     <wire>
       <p1 x="-12080" y="-740"/>
@@ -3314,12 +7171,12 @@
       <p2 x="-11260" y="-500"/>
     </wire>
     <wire>
-      <p1 x="-11160" y="-1140"/>
-      <p2 x="-11120" y="-1140"/>
+      <p1 x="-11080" y="-1140"/>
+      <p2 x="-11040" y="-1140"/>
     </wire>
     <wire>
-      <p1 x="-11120" y="-1140"/>
-      <p2 x="-11100" y="-1140"/>
+      <p1 x="-11040" y="-1140"/>
+      <p2 x="-11020" y="-1140"/>
     </wire>
     <wire>
       <p1 x="-12080" y="-760"/>
@@ -3446,16 +7303,16 @@
       <p2 x="-11720" y="-540"/>
     </wire>
     <wire>
-      <p1 x="-10860" y="-1200"/>
-      <p2 x="-10860" y="-1080"/>
-    </wire>
-    <wire>
       <p1 x="-10860" y="-620"/>
       <p2 x="-10860" y="-160"/>
     </wire>
     <wire>
-      <p1 x="-10860" y="-1080"/>
-      <p2 x="-10860" y="-1060"/>
+      <p1 x="-11020" y="-1220"/>
+      <p2 x="-11020" y="-1200"/>
+    </wire>
+    <wire>
+      <p1 x="-11020" y="-1160"/>
+      <p2 x="-11020" y="-1140"/>
     </wire>
     <wire>
       <p1 x="-11120" y="-1620"/>
@@ -3464,14 +7321,6 @@
     <wire>
       <p1 x="-11120" y="-1500"/>
       <p2 x="-11120" y="-1420"/>
-    </wire>
-    <wire>
-      <p1 x="-11120" y="-1140"/>
-      <p2 x="-11120" y="-1120"/>
-    </wire>
-    <wire>
-      <p1 x="-11120" y="-1240"/>
-      <p2 x="-11120" y="-1220"/>
     </wire>
     <wire>
       <p1 x="-11920" y="-480"/>
@@ -3510,6 +7359,10 @@
       <p2 x="-12280" y="-420"/>
     </wire>
     <wire>
+      <p1 x="-10780" y="-1200"/>
+      <p2 x="-10780" y="-1080"/>
+    </wire>
+    <wire>
       <p1 x="-10780" y="-700"/>
       <p2 x="-10780" y="-680"/>
     </wire>
@@ -3518,12 +7371,8 @@
       <p2 x="-10780" y="-720"/>
     </wire>
     <wire>
-      <p1 x="-11100" y="-1220"/>
-      <p2 x="-11100" y="-1200"/>
-    </wire>
-    <wire>
-      <p1 x="-11100" y="-1160"/>
-      <p2 x="-11100" y="-1140"/>
+      <p1 x="-10780" y="-1080"/>
+      <p2 x="-10780" y="-1060"/>
     </wire>
     <wire>
       <p1 x="-11900" y="-880"/>
@@ -3544,6 +7393,14 @@
     <wire>
       <p1 x="-11740" y="-740"/>
       <p2 x="-11740" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="-11040" y="-1140"/>
+      <p2 x="-11040" y="-1120"/>
+    </wire>
+    <wire>
+      <p1 x="-11040" y="-1240"/>
+      <p2 x="-11040" y="-1220"/>
     </wire>
     <wire>
       <p1 x="-10560" y="-600"/>
