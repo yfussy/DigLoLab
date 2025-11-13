@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="-1100" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="-1100" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Div</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-1020" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Q</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-820" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>R</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-780" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-880" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Comparator</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-980" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="-860" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-980" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-880" y="-40"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-1100" y="0"/>
+      <p2 x="-1040" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-940" y="0"/>
+      <p2 x="-880" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-840" y="-20"/>
+      <p2 x="-820" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="-1040" y="20"/>
+      <p2 x="-1020" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-960" y="20"/>
+      <p2 x="-940" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-1060" y="100"/>
+      <p2 x="-980" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="-1040" y="40"/>
+      <p2 x="-1020" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="-960" y="40"/>
+      <p2 x="-940" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="-920" y="120"/>
+      <p2 x="-860" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="-1100" y="60"/>
+      <p2 x="-1060" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="-940" y="60"/>
+      <p2 x="-780" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="-1060" y="60"/>
+      <p2 x="-1040" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="-1060" y="60"/>
+      <p2 x="-1060" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="-940" y="0"/>
+      <p2 x="-940" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-940" y="40"/>
+      <p2 x="-940" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="-860" y="40"/>
+      <p2 x="-860" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="-1040" y="0"/>
+      <p2 x="-1040" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-1040" y="40"/>
+      <p2 x="-1040" y="60"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
